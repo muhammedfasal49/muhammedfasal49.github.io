@@ -1,234 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Muhammed Fasal | Portfolio & Personal Website</title>
-<meta name="description" content="Official personal website of Muhammed Fasal from Wayanad, Kerala. Learn about his education, skills, interests, and contact information.">
-  <style>
-/* ===== DARK BLUE + PURPLE THEME ===== */
-
-body {
-  background: #08051a !important;
-  color: #f5f3ff !important;
-}
-
-.nav {
-  background: rgba(8, 5, 26, .90) !important;
-  border-bottom-color: #2e2361 !important;
-}
-
-.logo span {
-  color: #a78bfa !important;
-}
-
-.nav-links a {
-  color: #c4b5fd !important;
-}
-
-.nav-links a:hover {
-  color: #ddd6fe !important;
-}
-
-.hero {
-  background:
-    radial-gradient(
-      circle at 50% 35%,
-      #35206b 0,
-      #17103d 30%,
-      #08051a 70%
-    ) !important;
-  background-size: 200% 200% !important;
-}
-
-.eyebrow {
-  border-color: #6d4cc2 !important;
-  color: #c4b5fd !important;
-}
-
-h1 span {
-  color: #a78bfa !important;
-}
-
-.hero p {
-  color: #c4b5fd !important;
-}
-
-.btn {
-  background: #8b5cf6 !important;
-  border-color: #7c3aed !important;
-  color: #ffffff !important;
-}
-
-.btn:hover {
-  background: #a78bfa !important;
-}
-
-.btn.alt {
-  background: transparent !important;
-  color: #c4b5fd !important;
-}
-
-.about-card,
-.card {
-  background: #110c29 !important;
-  border-color: #2e2361 !important;
-}
-
-.about-card p {
-  color: #e9e3ff !important;
-}
-
-.card h3 {
-  color: #f5f3ff !important;
-}
-
-.card p {
-  color: #a99bd0 !important;
-}
-
-.section-subtitle {
-  color: #9f8dcc !important;
-}
-
-.tag {
-  border-color: #4c3a91 !important;
-  color: #c4b5fd !important;
-}
-
-.contact-box {
-  background: linear-gradient(
-    145deg,
-    #181039,
-    #0d0820
-  ) !important;
-  border-color: #33266b !important;
-}
-
-.email {
-  color: #c4b5fd !important;
-}
-
-footer {
-  border-top-color: #241b4d !important;
-  color: #796ca0 !important;
-}
-  </style>
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "mainEntity": {
-    "@type": "Person",
-    "@id": "https://muhammedfasal49.github.io/#person",
-    "name": "Muhammed Fasal",
-    "url": "https://muhammedfasal49.github.io/",
-    "sameAs": [
-      "https://www.instagram.com/___fasal_pk/"
-    ]
-  }
-}
-</script>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Muhammed Fasal from Wayanad — BA English Language and Literature student, reader, and aspiring communicator.">
+<title>Muhammed Fasal | Modern Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+:root{--bg:#070b1a;--bg2:#0d1230;--card:rgba(18,24,55,.62);--purple:#8b5cf6;--violet:#a78bfa;--blue:#38bdf8;--text:#f5f7ff;--muted:#aab3d0;--border:rgba(139,92,246,.25)}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--text);background:radial-gradient(circle at 15% 10%,rgba(56,189,248,.12),transparent 28%),radial-gradient(circle at 85% 20%,rgba(139,92,246,.18),transparent 32%),linear-gradient(135deg,var(--bg),var(--bg2));line-height:1.7;min-height:100vh}
+nav{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:18px 8%;background:rgba(7,11,26,.72);border-bottom:1px solid var(--border);backdrop-filter:blur(16px)}
+.logo{font-weight:800;font-size:1.25rem;background:linear-gradient(90deg,var(--blue),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav ul{display:flex;gap:25px;list-style:none}nav a{color:#dbe2ff;text-decoration:none;transition:.25s}nav a:hover{color:var(--violet)}
+section{max-width:1050px;margin:auto;padding:90px 8%}
+.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative}
+.glow{position:absolute;width:260px;height:260px;border-radius:50%;background:rgba(139,92,246,.16);filter:blur(70px);z-index:-1}
+.badge{padding:7px 16px;border:1px solid var(--border);border-radius:999px;color:var(--blue);background:rgba(56,189,248,.06);font-size:.9rem;margin-bottom:22px}
+.hero h1{font-size:clamp(3rem,8vw,6rem);line-height:1.02;margin-bottom:20px;letter-spacing:-2px}
+.hero h1 span{background:linear-gradient(90deg,var(--blue),var(--purple),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:680px;color:var(--muted);font-size:1.15rem}
+.btn{display:inline-block;margin-top:32px;padding:13px 26px;border-radius:10px;background:linear-gradient(135deg,var(--purple),#6d28d9);color:white;text-decoration:none;font-weight:700;box-shadow:0 0 28px rgba(139,92,246,.28);transition:.3s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 0 38px rgba(139,92,246,.48)}
+.section-title{font-size:2.2rem;margin-bottom:28px;background:linear-gradient(90deg,var(--blue),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+.card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:28px;box-shadow:0 15px 45px rgba(0,0,0,.22);backdrop-filter:blur(12px);transition:.3s}
+.card:hover{transform:translateY(-5px);border-color:rgba(167,139,250,.5);box-shadow:0 18px 55px rgba(80,50,180,.2)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.item-title{color:var(--violet);font-size:1.1rem;font-weight:700;margin-bottom:8px}.muted{color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:12px}.skill{padding:10px 16px;border:1px solid var(--border);border-radius:999px;color:#dfe6ff;background:rgba(139,92,246,.08)}
+.contact a{color:var(--blue);text-decoration:none}.contact a:hover{text-decoration:underline}
+footer{text-align:center;padding:30px 8%;border-top:1px solid var(--border);color:#7983a6}
+@media(max-width:700px){nav{padding:15px 5%}nav ul{gap:12px;font-size:.88rem}section{padding:70px 6%}.grid{grid-template-columns:1fr}.hero{min-height:82vh}.hero h1{letter-spacing:-1px}}
+</style>
 </head>
 <body>
-  <nav class="nav">
-    <div class="nav-inner">
-      <a class="logo" href="#home">Muhammed<span> Fasal</span></a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+<nav>
+<div class="logo">Muhammed Fasal</div>
+<ul>
+<li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
-  <main>
-    <header class="hero" id="home">
-      <div class="hero-content">
-        <div class="eyebrow fade">PORTFOLIO • WAYANAD</div>
-        <h1 class="fade delay">Muhammed <span>Fasal</span></h1>
-        <p class="fade delay2">Hi, I am Muhammed Fasal from Wayanad, Kerala — a passionate learner, reader, and aspiring communicator.</p>
-        <div class="btns fade delay2">
-          <a class="btn" href="#about">Explore My Portfolio</a>
-          <a class="btn alt" href="#contact">Contact Me</a>
-        </div>
-      </div>
-    </header>
-
-    <section id="about">
-      <h2 class="section-title">About Me</h2>
-      <p class="section-subtitle">A little introduction</p>
-      <div class="about-card">
-        <p><strong>Muhammed Fasal from Wayanad</strong> — a passionate learner, reader, and aspiring communicator.</p>
-      </div>
-    </section>
-
- <section id="education">
-  <h2 class="section-title">Education</h2>
-  <p class="section-subtitle">My academic journey</p>
-  <div class="card">
-    <h3>BA English Language and Literature</h3>
-    <p>
-      Currently pursuing a BA in English Language and Literature,
-      developing my knowledge of English language, literature, communication,
-      and critical thinking.
-    </p>
-  </div>
+<section class="hero">
+<div class="glow"></div>
+<div class="badge">Wayanad • Kerala</div>
+<h1>Hi, I am <span>Muhammed Fasal</span></h1>
+<p>BA English Language and Literature student, passionate reader, and aspiring communicator.</p>
+<a class="btn" href="#about">Explore My Portfolio →</a>
 </section>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<div class="card"><p>Muhammed Fasal from Wayanad — a passionate learner, reader, and aspiring communicator.</p></div>
+</section>
+
+<section id="education">
+<h2 class="section-title">Education</h2>
+<div class="card"><div class="item-title">BA English Language and Literature</div><p class="muted">Graduating degree in English Language and Literature.</p></div>
+</section>
+
 <section id="skills">
-  <h2 class="section-title">Skills & Interests</h2>
-  <p class="section-subtitle">My skills, hobbies, and areas of interest</p>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Urdu Communication</h3>
-      <p>Communicating and interacting effectively in Urdu.</p>
-      <span class="tag">Skill</span>
-    </div>
-
-    <div class="card">
-      <h3>Reading</h3>
-      <p>Exploring books, ideas, and different perspectives through reading.</p>
-      <span class="tag">Hobby</span>
-    </div>
-
-    <div class="card">
-      <h3>Playing</h3>
-      <p>Enjoying games and staying active during my free time.</p>
-      <span class="tag">Hobby</span>
-    </div>
-
-    <div class="card">
-      <h3>Learning</h3>
-      <p>Continuously exploring new ideas and developing new knowledge.</p>
-      <span class="tag">Interest</span>
-    </div>
-  </div>
+<h2 class="section-title">Skills & Interests</h2>
+<div class="grid">
+<div class="card"><div class="item-title">Skill</div><div class="skills"><span class="skill">Urdu Communication</span></div></div>
+<div class="card"><div class="item-title">Hobbies</div><div class="skills"><span class="skill">Reading</span><span class="skill">Playing</span></div></div>
+</div>
 </section>
 
-   <section class="contact" id="contact">
-  <h2 class="section-title">Let's Connect</h2>
-  <p class="section-subtitle">Get in touch with Muhammed Fasal</p>
-
-  <div class="contact-box">
-    <h3>Contact Muhammed Fasal</h3>
-    <p>For inquiries or to connect, you can reach me through email or Instagram.</p>
-
-    <a class="email" href="mailto:muhammedfasalpk321@gmail.com">
-      muhammedfasalpk321@gmail.com
-    </a>
-
-    <div class="btns">
-      <a class="btn" href="https://instagram.com/___fasal_pk" target="_blank" rel="noopener">
-        Instagram
-      </a>
-    </div>
-  </div>
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+<div class="card contact">
+<p><strong>Email:</strong> <a href="mailto:muhammedfasalpk321@gmail.com">muhammedfasalpk321@gmail.com</a></p>
+<p><strong>Instagram:</strong> <a href="https://www.instagram.com/___fasal_pk/" target="_blank" rel="noopener">@___fasal_pk</a></p>
+</div>
 </section>
-  </main>
 
-  <footer>© 2026 Muhammed Fasal. All rights reserved.</footer>
+<footer>© 2026 Muhammed Fasal. All rights reserved.</footer>
 </body>
 </html>
